@@ -1,0 +1,5 @@
+{
+	PREFAB_BASKET_BERRIES_PART = {
+		AssetRegistered = true
+		}
+}

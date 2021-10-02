@@ -1,0 +1,14 @@
+{
+	"Name": "Berry Basket",
+	"Author": "GarranPlum",
+	"Description": "Produces berries quickly from a basket you can place anywhere without building or resource requirements. Creates a Berry Picker job. Transporters take your berries to a granary.",
+	"Version": "2.0.0",
+	
+	"Dependencies": [
+    {
+      "Id": "cfaa7652-e8e6-47d5-94d0-a75d49483913",
+      "Name": "Fantasy Decorations"
+    }
+  ]
+}
+

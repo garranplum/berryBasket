@@ -1,0 +1,29 @@
+{
+	modelFiles = {
+	}, 
+	jobs = {
+	}, 
+	nodeTypes = {
+	}, 
+	remix = {
+	}, 
+	categories = {
+		FRUIT = {
+			PREFAB_BASKET_BERRIES_PART = {
+				AssetRegistered = true
+				}
+		}
+	}, 
+	monuments = {
+		BERRY_REMIX = {
+			Categories = {
+				FRUIT = {
+				}
+			}
+		}
+	}, 
+	workplaces = {
+	}, 
+	version = "3.2.1", 
+		modName = "BERRY_REMIX"
+		}
