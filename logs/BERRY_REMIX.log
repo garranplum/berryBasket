@@ -2,6 +2,11 @@
 	modelFiles = {
 	}, 
 	jobs = {
+		BERRY_PICKER = {
+			Walk = "WALKING", 
+				Delay = 7, 
+					Work = "GATHER"
+					}
 	}, 
 	nodeTypes = {
 	}, 
@@ -10,8 +15,9 @@
 	categories = {
 		FRUIT = {
 			PREFAB_BASKET_BERRIES_PART = {
-				AssetRegistered = true
-				}
+				Function = "BERRY_PRODUCER", 
+					AssetRegistered = true
+					}
 		}
 	}, 
 	monuments = {
@@ -23,6 +29,17 @@
 		}
 	}, 
 	workplaces = {
+		BERRY_PRODUCER = {
+			Produces = {
+				BERRIES = 1
+				}, 
+			Positions = 1, 
+				Job = "BERRY_PICKER", 
+					Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR", 
+						Requires = {
+							BERRIES = 0
+							}
+					}
 	}, 
 	version = "3.2.1", 
 		modName = "BERRY_REMIX"
