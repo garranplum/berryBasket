@@ -1,0 +1,11 @@
+{
+	ResourceValue = 5, 
+		DataType = "COMP_RESOURCE_CONTAINER", 
+			IsDestroyWhenEmpty = false, 
+				IsReplenishable = true, 
+					Radius = 0.55, 
+						AvailableQuantity = 50, 
+							ResourceData = "BERRIES", 
+								ReplenishDurationInDays = 7, 
+									ReplenishQuantity = 10
+									}

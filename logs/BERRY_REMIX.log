@@ -29,17 +29,6 @@
 		}
 	}, 
 	workplaces = {
-		BERRY_PRODUCER = {
-			Produces = {
-				BERRIES = 1
-				}, 
-			Positions = 1, 
-				Job = "BERRY_PICKER", 
-					Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR", 
-						Requires = {
-							BERRIES = 0
-							}
-					}
 	}, 
 	version = "3.2.1", 
 		modName = "BERRY_REMIX"

@@ -15,24 +15,27 @@ local remix = {}
 
 -- MY CONFIG Categories
 local categories = {
-    FRUIT = {PREFAB_BASKET_BERRIES_PART = {AssetRegistered = true, Function = "BERRY_PRODUCER",}}
+    FRUIT = {
+        PREFAB_BASKET_BERRIES_PART = {
+            AssetRegistered = true,
+            Function = "BERRY_PRODUCER"
+        }
+    }
 }
 
 -- MY CONFIG Jobs
-local jobs = {
-    BERRY_PICKER = {Work = "GATHER", Walk = "WALKING", Delay = 7}
-}
+local jobs = {BERRY_PICKER = {Work = "GATHER", Walk = "WALKING", Delay = 7}}
 
 -- MY CONFIG Workplaces
-local workplaces = {
-    BERRY_PRODUCER = {
-        Job = "BERRY_PICKER",
-        Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR",
-        Positions = 1,
-        Produces = {BERRIES = 1},
-        Requires = {BERRIES = 0}
-    }
-}
+-- local workplaces = {
+--     BERRY_PRODUCER = {
+--         Job = "BERRY_PICKER",
+--         Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR",
+--         Positions = 1,
+--         Produces = {BERRIES = 1},
+--         Requires = {BERRIES = 0}
+--     }
+-- }
 
 -- MY CONFIG Monuments
 local monuments = {[modName] = {Categories = {FRUIT = {}}}}

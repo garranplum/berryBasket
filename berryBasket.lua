@@ -64,6 +64,7 @@ berryBasket:registerPrefabComponent( "PREFAB_BASKET_BERRIES_PART", {
     IsDestroyWhenEmpty = false
 })
 
+
 -- JOB Berry Picker
 berryBasket:register({
 	DataType = "JOB",

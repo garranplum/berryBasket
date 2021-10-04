@@ -1,0 +1,12 @@
+{
+	IsMovableWhenBuilt = true, 
+		Description = "PREFAB_BASKET_BERRIES_PART_DESC", 
+			DataType = "BUILDING_PART", 
+				Name = "PREFAB_BASKET_BERRIES_PART", 
+					Id = "BUILDING_PART_PREFAB_BASKET_BERRIES_PART", 
+						AssetBuildingFunction = "BERRY_PRODUCER", 
+							ConstructorData = {
+								CoreObjectPrefab = "PREFAB_BASKET_BERRIES_PART", 
+									DataType = "BUILDING_CONSTRUCTOR_DEFAULT"
+									}
+						}

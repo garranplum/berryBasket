@@ -35,9 +35,9 @@ local configFile = "config.lua"
 -- Main Entrypoint & Loader
 
 -- CREATE: GP Object 
-local GP = {
-    mod = foundation.createMod()
-}
+    local GP = {
+        mod = foundation.createMod()
+    }
 
 -- EXECUTE FILE: Loader
 -- Sets up GPS.
