@@ -10,7 +10,7 @@ GP:log("customOverrides.lua", GP:version())
 
 
 -- BUILDING Berry Basket
-myMod:register({
+GP:register({
 	DataType = "BUILDING", 
 	Id = "BUILDING_BERRY_BASKET",
 	Name = "BERRY_BUILDING",
@@ -32,11 +32,10 @@ myMod:register({
 -- 	}
 -- }
 
--- GP:writeTable(berryPartReg, "berryPartReg.log")
--- -- myMod:register(berryPartReg)
+-- GP:register(berryPartReg)
 
 -- BUILDING FUNCTION Berry Producer
-myMod:register({
+GP:register({
     DataType = "BUILDING_FUNCTION_WORKPLACE",
     Id = "BERRY_PRODUCER",
     Name = "BUILDING_BERRY_BASKET_DESC",

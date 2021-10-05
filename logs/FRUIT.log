@@ -1,6 +1,0 @@
-{
-	PREFAB_BASKET_BERRIES_PART = {
-		Function = "BERRY_PRODUCER", 
-			AssetRegistered = true
-			}
-}

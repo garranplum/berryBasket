@@ -1,0 +1,20 @@
+{
+	ResourceListNeeded = {{
+			Resource = "BERRIES", 
+				Quantity = 1
+				}
+	}, 
+	DataType = "BUILDING_FUNCTION_WORKPLACE", 
+		Id = "BERRY_PRODUCER", 
+			Name = "BUILDING_BERRY_BASKET_DESC", 
+				WorkerCapacity = 2, 
+					ResourceProduced = {{
+							Resource = "BERRIES", 
+								Quantity = 1
+								}
+					}, 
+					RelatedJob = {
+						Job = "BERRY_PICKER", 
+							Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR"
+							}
+				}
