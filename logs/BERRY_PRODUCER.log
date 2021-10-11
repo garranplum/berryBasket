@@ -4,10 +4,15 @@
 				Quantity = 1
 				}
 	}, 
-	DataType = "BUILDING_FUNCTION_WORKPLACE", 
-		Id = "BERRY_PRODUCER", 
-			Name = "BUILDING_BERRY_BASKET_DESC", 
-				WorkerCapacity = 2, 
+	InputInventoryCapacity = {{
+			Resource = "BERRIES", 
+				Quantity = 1
+				}
+	}, 
+	Id = "BERRY_PRODUCER", 
+		DataType = "BUILDING_FUNCTION_WORKPLACE", 
+			Name = "BERRY_PRODUCER", 
+				WorkerCapacity = 1, 
 					ResourceProduced = {{
 							Resource = "BERRIES", 
 								Quantity = 1

@@ -1,0 +1,7 @@
+{
+	AssetCoreBuildingPart = "BUILDING_PART_PREFAB_BASKET_BERRIES_PART", 
+		Id = "BUILDING_BERRY_BUILDING_GPS", 
+			DataType = "BUILDING", 
+				Name = "BERRY_BUILDING_GPS", 
+					Description = "BERRY_BUILDING_GPS_DESC"
+					}

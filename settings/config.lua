@@ -5,7 +5,7 @@
 -- IMPORT GP OBJECT
 local myMod, GP = ...
 
-GP:log("config.lua", GP:version())
+GP:log("config.lua")
 
 -- MY CONFIG Mod Name
 local modName = "BERRY_REMIX"
@@ -27,18 +27,21 @@ local categories = {
 local jobs = {BERRY_PICKER = {Work = "GATHER", Walk = "WALKING", Delay = 7}}
 
 -- MY CONFIG Workplaces
--- local workplaces = {
---     BERRY_PRODUCER = {
---         Job = "BERRY_PICKER",
---         Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR",
---         Positions = 1,
---         Produces = {BERRIES = 1},
---         Requires = {BERRIES = 0}
---     }
--- }
+local workplaces = {
+    BERRY_PRODUCER = {
+        Job = "BERRY_PICKER",
+        Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR",
+        Positions = 1,
+        Produces = {BERRIES = 1},
+        Requires = {BERRIES = 1}
+    }
+}
+
+-- MY CONFIG Buildings
+local buildings = {BERRY_BUILDING_GPS = "PREFAB_BASKET_BERRIES_PART"}
 
 -- MY CONFIG Monuments
-local monuments = {[modName] = {Categories = {FRUIT = {}}}}
+-- local monuments = {[modName] = {Categories = {FRUIT = {}}}}
 
 -- 
 --
@@ -62,7 +65,8 @@ local config = {
     nodeTypes = nodeTypes or {},
     jobs = jobs or {},
     workplaces = workplaces or {},
-    monuments = monuments or {}
+    monuments = monuments or {},
+    buildings = buildings or {}
 }
 
 -- Use global to return config to loader :-(.

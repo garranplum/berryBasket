@@ -6,10 +6,6 @@
 				}, 
 				Id = "BUILDING_BERRY_REMIX", 
 					Name = "BERRY_REMIX", 
-						BuildingPartSetList = {{
-								Name = "CATEGORY_FRUIT", 
-									BuildingPartList = {"BUILDING_PART_PREFAB_BASKET_BERRIES_PART"
-										}
-								}
+						BuildingPartSetList = {
 						}
 					}

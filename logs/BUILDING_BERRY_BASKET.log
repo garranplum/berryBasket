@@ -1,10 +1,9 @@
 {
 	BuildingType = "FOOD_PRODUCTION", 
 		AssetCoreBuildingPart = "BUILDING_PART_PREFAB_BASKET_BERRIES_PART", 
-			isEditable = true, 
-				DataType = "BUILDING", 
+			DataType = "BUILDING", 
+				Id = "BUILDING_BERRY_BASKET", 
 					Name = "BERRY_BUILDING", 
-						Id = "BUILDING_BERRY_BASKET", 
-							AssetBuildingFunction = "BERRY_PRODUCER", 
-								Description = "BUILDING_BERRY_BASKET_DESC"
-								}
+						AssetBuildingFunction = "BERRY_PRODUCER", 
+							Description = "BUILDING_BERRY_BASKET_DESC"
+							}

@@ -1,35 +1,43 @@
 {
-	modelFiles = {
-	}, 
-	jobs = {
-		BERRY_PICKER = {
-			Walk = "WALKING", 
-				Delay = 7, 
-					Work = "GATHER"
-					}
-	}, 
-	nodeTypes = {
+	monuments = {
 	}, 
 	remix = {
 	}, 
-	categories = {
-		FRUIT = {
-			PREFAB_BASKET_BERRIES_PART = {
-				Function = "BERRY_PRODUCER", 
-					AssetRegistered = true
-					}
-		}
+	nodeTypes = {
 	}, 
-	monuments = {
-		BERRY_REMIX = {
-			Categories = {
-				FRUIT = {
-				}
+	buildings = {
+		BERRY_BUILDING_GPS = "PREFAB_BASKET_BERRIES_PART"
+		}, 
+	modName = "BERRY_REMIX", 
+		categories = {
+			FRUIT = {
+				PREFAB_BASKET_BERRIES_PART = {
+					Function = "BERRY_PRODUCER", 
+						AssetRegistered = true
+						}
 			}
-		}
-	}, 
-	workplaces = {
-	}, 
-	version = "3.2.1", 
-		modName = "BERRY_REMIX"
+		}, 
+		version = "3.2.1", 
+			modelFiles = {
+			}, 
+			jobs = {
+				BERRY_PICKER = {
+					Walk = "WALKING", 
+						Delay = 7, 
+							Work = "GATHER"
+							}
+			}, 
+			workplaces = {
+				BERRY_PRODUCER = {
+					Produces = {
+						BERRIES = 1
+						}, 
+					Positions = 1, 
+						Job = "BERRY_PICKER", 
+							Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR", 
+								Requires = {
+									BERRIES = 1
+									}
+							}
+			}
 		}
