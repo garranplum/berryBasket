@@ -33,7 +33,7 @@ local workplaces = {
         Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR",
         Positions = 1,
         Produces = {BERRIES = 1},
-        Requires = {BERRIES = 1}
+        Requires = {BERRIES = 0}
     }
 }
 

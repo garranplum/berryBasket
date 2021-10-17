@@ -36,7 +36,7 @@
 						Job = "BERRY_PICKER", 
 							Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR", 
 								Requires = {
-									BERRIES = 1
+									BERRIES = 0
 									}
 							}
 			}

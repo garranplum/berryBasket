@@ -1,7 +1,7 @@
 {
 	ResourceListNeeded = {{
 			Resource = "BERRIES", 
-				Quantity = 1
+				Quantity = 0
 				}
 	}, 
 	InputInventoryCapacity = {{
