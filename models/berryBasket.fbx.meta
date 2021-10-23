@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="3a97e556-24f0-48ca-92a9-827231ae6c38">
+	<meta id="9834bd4f-ccdb-4317-841a-2603f98113df" type="group" folder="true" name="Materials">
+		<meta id="feddf301-3d31-480c-a2ad-ae7c4dd71dc4" name="wicker"/>
+		<meta id="dcee5ad2-1a36-46b6-868d-6e2295700a6a" name="red wicker"/>
+		<meta id="54ec594b-8eae-4be8-a0b9-9718400d893c" name="food"/>
+	</meta>
+	<meta id="9c21912c-cb7d-4729-97a7-0fd056b1f49a" type="group" folder="true" name="Meshes">
+		<meta id="8514ce80-b196-4cf7-9893-df49f2c1c8e2" name="BERRY_BASKET_Part_LOD_0123.5_wicker"/>
+		<meta id="5b6bd6b7-71a3-4ca6-9a15-22444eb06636" name="BERRY_BASKET_Part_LOD_0123.5_red wicker"/>
+		<meta id="753bdfbf-7b43-4fe1-9507-7c869b81b4be" name="BERRY_BASKET_Part_LOD_0123.5_food"/>
+	</meta>
+	<meta id="6641249c-6ce2-49e9-a16c-b6691c2ce73f" name="Prefab">
+		<meta id="dcec2619-dc2d-439f-8573-10a3af296826" name="BERRY_BASKET_Part">
+			<meta id="a1ee9476-cba6-4503-a8d7-df21a95c6b0b" name="Attach_Bottom.004"/>
+			<meta id="e8c67cc3-e0ec-4935-ad1a-dc7e31086020" name="BERRY_BASKET_Part_0"/>
+			<meta id="579f1790-209b-483f-9ce9-2711a9a63538" name="BERRY_BASKET_Part_1"/>
+			<meta id="69f02bb2-adb9-4c45-a092-2fae93234422" name="BERRY_BASKET_Part_2"/>
+		</meta>
+	</meta>
+	<meta id="64ff53d9-31f3-400c-8937-a66ff17aabd2" type="group" folder="true" name="LOD">
+		<meta id="4c0f705d-7e42-45a9-8fca-e32fe0261bc6" name="BERRY_BASKET_Part_0"/>
+		<meta id="c4e14c1b-0601-440a-a36a-bce50d075476" name="BERRY_BASKET_Part_1"/>
+		<meta id="e0e837e8-a724-4d78-b7c2-e10738e7b20a" name="BERRY_BASKET_Part_2"/>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="a2c05e955d186ffa04da0e858d60f5fe"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Bottom.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="BERRY_BASKET_Part_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="BERRY_BASKET_Part_1"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="BERRY_BASKET_Part_2"/>
+					</Item>
+				</ChildList>
+				<NodeName value="BERRY_BASKET_Part"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="54ec594b-8eae-4be8-a0b9-9718400d893c"/>
+			<MaterialName value="food"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="dcee5ad2-1a36-46b6-868d-6e2295700a6a"/>
+			<MaterialName value="red wicker"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="feddf301-3d31-480c-a2ad-ae7c4dd71dc4"/>
+			<MaterialName value="wicker"/>
+		</Item>
+	</MaterialList>
+</importer>
+

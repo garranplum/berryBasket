@@ -15,6 +15,6 @@
 					}, 
 					RelatedJob = {
 						Job = "BERRY_PICKER", 
-							Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR"
+							Behavior = "BEHAVIOR_GATHER"
 							}
 				}

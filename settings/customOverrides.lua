@@ -5,10 +5,6 @@
 -- IMPORT GP OBJECT
 local myMod, GP = ...
 
-GP:log("customOverrides.lua")
-
-
-
 -- BUILDING Berry Basket
 -- GP:register({
 -- 	DataType = "BUILDING", 
@@ -51,7 +47,7 @@ GP:log("customOverrides.lua")
 -- 	}
 -- })
 
--- RESOURCE CONTAINER Berries
+-- -- RESOURCE CONTAINER Berries
 -- myMod:registerPrefabComponent( "PREFAB_BASKET_BERRIES_PART", {
 --     DataType = "COMP_RESOURCE_CONTAINER",
 --     ResourceData = "BERRIES",

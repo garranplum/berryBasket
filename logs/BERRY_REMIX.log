@@ -6,19 +6,23 @@
 	nodeTypes = {
 	}, 
 	buildings = {
-		BERRY_BUILDING_GPS = "PREFAB_BASKET_BERRIES_PART"
+		BERRY_BUILDING_GPS = "BERRY_BASKET"
 		}, 
 	modName = "BERRY_REMIX", 
 		categories = {
 			FRUIT = {
-				PREFAB_BASKET_BERRIES_PART = {
+				BERRY_BASKET = {
 					Function = "BERRY_PRODUCER", 
-						AssetRegistered = true
-						}
+						Produces = {
+							BERRIES = 10
+							}
+					}
 			}
 		}, 
-		version = "3.2.1", 
+		version = "3.3.0", 
 			modelFiles = {
+				berryBasket = {"FRUIT"
+					}
 			}, 
 			jobs = {
 				BERRY_PICKER = {
@@ -34,7 +38,7 @@
 						}, 
 					Positions = 1, 
 						Job = "BERRY_PICKER", 
-							Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR", 
+							Behavior = "BEHAVIOR_GATHER", 
 								Requires = {
 									BERRIES = 0
 									}

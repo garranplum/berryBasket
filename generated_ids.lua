@@ -18,4 +18,8 @@ IdMap = {
 	{ "BERRIES_GENERATOR", "BUILDING_FUNCTION", "ff90f81f-4817-442f-a373-09be4b3f641c" },
 	{ "BUILDING_BERRY_RIMIX", "BUILDING", "4e9486ea-e9c6-4bed-ae68-d57bca62846d" },
 	{ "BUILDING_BERRY_BUILDING_GPS", "BUILDING", "d1542bc4-cc46-47ce-9da5-41db280ed283" },
+	{ "BUILDING_PART_Basket_Berries", "BUILDING_PART", "b9feb429-f03b-4532-8dd3-84a45771c39b" },
+	{ "models/berryBasket.fbx", "", "3a97e556-24f0-48ca-92a9-827231ae6c38" },
+	{ "models/food.png", "", "149f7278-e8c4-4a26-8eda-50ec1012e99f" },
+	{ "BUILDING_PART_BERRY_BASKET", "BUILDING_PART", "8338cf5f-c7c6-4a63-9314-bcb7754ad88c" },
 }

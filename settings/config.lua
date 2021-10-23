@@ -5,8 +5,6 @@
 -- IMPORT GP OBJECT
 local myMod, GP = ...
 
-GP:log("config.lua")
-
 -- MY CONFIG Mod Name
 local modName = "BERRY_REMIX"
 
@@ -16,11 +14,16 @@ local remix = {}
 -- MY CONFIG Categories
 local categories = {
     FRUIT = {
-        PREFAB_BASKET_BERRIES_PART = {
-            AssetRegistered = true,
-            Function = "BERRY_PRODUCER"
+        BERRY_BASKET = {
+            Function = "BERRY_PRODUCER",
+            Produces = {BERRIES = 10},
         }
     }
+}
+
+-- MY CONFIG Model Files
+local modelFiles = {
+    berryBasket = {"FRUIT"}
 }
 
 -- MY CONFIG Jobs
@@ -30,7 +33,7 @@ local jobs = {BERRY_PICKER = {Work = "GATHER", Walk = "WALKING", Delay = 7}}
 local workplaces = {
     BERRY_PRODUCER = {
         Job = "BERRY_PICKER",
-        Behavior = "BEHAVIOR_PRODUCE_TREE_COLLECTOR",
+        Behavior = "BEHAVIOR_GATHER",
         Positions = 1,
         Produces = {BERRIES = 1},
         Requires = {BERRIES = 0}
@@ -38,7 +41,7 @@ local workplaces = {
 }
 
 -- MY CONFIG Buildings
-local buildings = {BERRY_BUILDING_GPS = "PREFAB_BASKET_BERRIES_PART"}
+local buildings = {BERRY_BUILDING_GPS = "BERRY_BASKET"}
 
 -- MY CONFIG Monuments
 -- local monuments = {[modName] = {Categories = {FRUIT = {}}}}
@@ -57,7 +60,7 @@ local buildings = {BERRY_BUILDING_GPS = "PREFAB_BASKET_BERRIES_PART"}
 --
 -- Create the config table.
 local config = {
-    version = GP:version(),
+    version = GP:gpsVersion(),
     remix = remix or {},
     modName = modName,
     modelFiles = modelFiles or {},
