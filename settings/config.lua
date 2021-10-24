@@ -11,12 +11,17 @@ local modName = "BERRY_REMIX"
 -- MY CONFIG Remix
 local remix = {}
 
+-- MY CONFIG Paths
+local pathList = {"Worker_1", "Worker_2", "Transport", "Visitor"}
+
 -- MY CONFIG Categories
 local categories = {
     FRUIT = {
-        BERRY_BASKET = {
+        Berry_Basket = {
             Function = "BERRY_PRODUCER",
-            Produces = {BERRIES = 10},
+            -- Produces = {BERRIES = 10},
+            PathNodes = pathList,
+            PathTypes = {DEFAULT = "Worker_1"}
         }
     }
 }
@@ -33,7 +38,7 @@ local jobs = {BERRY_PICKER = {Work = "GATHER", Walk = "WALKING", Delay = 7}}
 local workplaces = {
     BERRY_PRODUCER = {
         Job = "BERRY_PICKER",
-        Behavior = "BEHAVIOR_GATHER",
+        Behavior = "BEHAVIOR_WORK",
         Positions = 1,
         Produces = {BERRIES = 1},
         Requires = {BERRIES = 0}
@@ -41,7 +46,7 @@ local workplaces = {
 }
 
 -- MY CONFIG Buildings
-local buildings = {BERRY_BUILDING_GPS = "BERRY_BASKET"}
+local buildings = {BERRY_BUILDING_GPS = "Berry_Basket"}
 
 -- MY CONFIG Monuments
 -- local monuments = {[modName] = {Categories = {FRUIT = {}}}}

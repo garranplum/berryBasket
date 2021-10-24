@@ -6,15 +6,17 @@
 	nodeTypes = {
 	}, 
 	buildings = {
-		BERRY_BUILDING_GPS = "BERRY_BASKET"
+		BERRY_BUILDING_GPS = "Berry_Basket"
 		}, 
 	modName = "BERRY_REMIX", 
 		categories = {
 			FRUIT = {
-				BERRY_BASKET = {
+				Berry_Basket = {
+					PathNodes = {"Worker_1", "Worker_2", "Transport", "Visitor"
+									}, 
 					Function = "BERRY_PRODUCER", 
-						Produces = {
-							BERRIES = 10
+						PathTypes = {
+							DEFAULT = "Worker_1"
 							}
 					}
 			}
@@ -38,7 +40,7 @@
 						}, 
 					Positions = 1, 
 						Job = "BERRY_PICKER", 
-							Behavior = "BEHAVIOR_GATHER", 
+							Behavior = "BEHAVIOR_WORK", 
 								Requires = {
 									BERRIES = 0
 									}

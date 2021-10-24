@@ -22,4 +22,6 @@ IdMap = {
 	{ "models/berryBasket.fbx", "", "3a97e556-24f0-48ca-92a9-827231ae6c38" },
 	{ "models/food.png", "", "149f7278-e8c4-4a26-8eda-50ec1012e99f" },
 	{ "BUILDING_PART_BERRY_BASKET", "BUILDING_PART", "8338cf5f-c7c6-4a63-9314-bcb7754ad88c" },
+	{ "BUILDING_PART_Berry_Basket", "BUILDING_PART", "e6d5bd1d-c30b-4a6d-b432-0cfbf21fc97a" },
+	{ "models/mixedBerries.jpg", "", "e4e82319-c5f0-4d7d-9d1d-3ffab16c46b8" },
 }
