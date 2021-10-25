@@ -19,9 +19,13 @@ IdMap = {
 	{ "BUILDING_BERRY_RIMIX", "BUILDING", "4e9486ea-e9c6-4bed-ae68-d57bca62846d" },
 	{ "BUILDING_BERRY_BUILDING_GPS", "BUILDING", "d1542bc4-cc46-47ce-9da5-41db280ed283" },
 	{ "BUILDING_PART_Basket_Berries", "BUILDING_PART", "b9feb429-f03b-4532-8dd3-84a45771c39b" },
+	{ "BUILDING_GRANARY", "BUILDING", "97034b6d-7553-406f-9d55-caec259214cd" },
 	{ "models/berryBasket.fbx", "", "3a97e556-24f0-48ca-92a9-827231ae6c38" },
 	{ "models/food.png", "", "149f7278-e8c4-4a26-8eda-50ec1012e99f" },
 	{ "BUILDING_PART_BERRY_BASKET", "BUILDING_PART", "8338cf5f-c7c6-4a63-9314-bcb7754ad88c" },
 	{ "BUILDING_PART_Berry_Basket", "BUILDING_PART", "e6d5bd1d-c30b-4a6d-b432-0cfbf21fc97a" },
+	{ "models/mixedBerries-assets/mixedBerries.png", "", "08a8b94a-e101-412f-96c0-ce818f353c1f" },
 	{ "models/mixedBerries.jpg", "", "e4e82319-c5f0-4d7d-9d1d-3ffab16c46b8" },
+	{ "models/oMixedBerries.jpg", "", "69d5ebef-6a9e-41f8-996a-66d788400043" },
+	{ "BUILDING_GRANARY2", "BUILDING", "570cf899-54a2-4ed9-8b30-d0effe3b6a36" },
 }

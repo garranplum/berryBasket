@@ -1,8 +1,0 @@
-{
-	AssetCoreBuildingPart = "BUILDING_PART_Berry_Basket", 
-		Id = "BUILDING_BERRY_BUILDING_GPS", 
-			DataType = "BUILDING", 
-				Name = "BERRY_BUILDING_GPS", 
-					IsEditable = true, 
-						Description = "BERRY_BUILDING_GPS_DESC"
-						}

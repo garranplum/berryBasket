@@ -6,7 +6,7 @@
 local myMod, GP = ...
 
 -- MY CONFIG Mod Name
-local modName = "BERRY_REMIX"
+local modName = "BERRY_BASKET"
 
 -- MY CONFIG Remix
 local remix = {}
@@ -23,6 +23,12 @@ local categories = {
             PathNodes = pathList,
             PathTypes = {DEFAULT = "Worker_1"}
         }
+    },
+    STORAGE = {
+        GRANARY = {
+            AssetRegistered = true,
+            BuildingRegistered = true
+        }
     }
 }
 
@@ -32,7 +38,14 @@ local modelFiles = {
 }
 
 -- MY CONFIG Jobs
-local jobs = {BERRY_PICKER = {Work = "GATHER", Walk = "WALKING", Delay = 7}}
+local jobs = {
+    BERRY_PICKER = {
+        Work = "GATHER", 
+        Walk = "WALKING",
+        Back = "PREFAB_TOOL_FARMER_SEED_BAG", 
+        Delay = 7
+    }
+}
 
 -- MY CONFIG Workplaces
 local workplaces = {
@@ -46,7 +59,7 @@ local workplaces = {
 }
 
 -- MY CONFIG Buildings
-local buildings = {BERRY_BUILDING_GPS = "Berry_Basket"}
+local buildings = {BERRY_BASKET = "Berry_Basket", GRANARY2 = "GRANARY"}
 
 -- MY CONFIG Monuments
 -- local monuments = {[modName] = {Categories = {FRUIT = {}}}}
