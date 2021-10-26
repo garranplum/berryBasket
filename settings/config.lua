@@ -21,28 +21,21 @@ local categories = {
             Function = "BERRY_PRODUCER",
             -- Produces = {BERRIES = 10},
             PathNodes = pathList,
-            PathTypes = {DEFAULT = "Worker_1"}
+            PathTypes = {DEFAULT = "Worker_1", PICKUP = "Transport"}
         }
     },
-    STORAGE = {
-        GRANARY = {
-            AssetRegistered = true,
-            BuildingRegistered = true
-        }
-    }
+    STORAGE = {GRANARY = {AssetRegistered = true, BuildingRegistered = true}}
 }
 
 -- MY CONFIG Model Files
-local modelFiles = {
-    berryBasket = {"FRUIT"}
-}
+local modelFiles = {berryBasket = {"FRUIT"}}
 
 -- MY CONFIG Jobs
 local jobs = {
     BERRY_PICKER = {
-        Work = "GATHER", 
+        Work = "GATHER",
         Walk = "WALKING",
-        Back = "PREFAB_TOOL_FARMER_SEED_BAG", 
+        Back = "PREFAB_TOOL_FARMER_SEED_BAG",
         Delay = 7
     }
 }
