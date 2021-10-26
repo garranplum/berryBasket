@@ -23,8 +23,7 @@ local categories = {
             PathNodes = pathList,
             PathTypes = {DEFAULT = "Worker_1", PICKUP = "Transport"}
         }
-    },
-    STORAGE = {GRANARY = {AssetRegistered = true, BuildingRegistered = true}}
+    }
 }
 
 -- MY CONFIG Model Files
