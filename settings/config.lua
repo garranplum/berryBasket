@@ -17,11 +17,11 @@ local pathList = {"Worker_1", "Worker_2", "Transport", "Visitor"}
 -- MY CONFIG Categories
 local categories = {
     FRUIT = {
-        Berry_Basket = {
+        BERRY_BASKET = {
             Function = "BERRY_PRODUCER",
-            -- Produces = {BERRIES = 10},
             PathNodes = pathList,
-            PathTypes = {DEFAULT = "Worker_1", PICKUP = "Transport"}
+            PathTypes = {DEFAULT = "Worker_1", PICKUP = "Transport"},
+            Type = "FOOD_PRODUCTION"
         }
     }
 }
@@ -51,10 +51,7 @@ local workplaces = {
 }
 
 -- MY CONFIG Buildings
-local buildings = {BERRY_BASKET = "Berry_Basket"}
-
--- MY CONFIG Monuments
--- local monuments = {[modName] = {Categories = {FRUIT = {}}}}
+local buildings = {"FRUIT"}
 
 -- 
 --
@@ -79,7 +76,8 @@ local config = {
     jobs = jobs or {},
     workplaces = workplaces or {},
     monuments = monuments or {},
-    buildings = buildings or {}
+    buildings = buildings or {},
+    logo = logo or {}
 }
 
 -- Use global to return config to loader :-(.

@@ -2,6 +2,7 @@
 	"": {
 		"BERRY_BASKET": "Berry Basket",
 		"BERRY_BASKET_DESC": "Produces Berries",
+		"CATEGORY_FRUIT": "Fresh Fruit",
 		"BUILDING_PART_BERRIES_NAME": "Berries",
 		"BERRY_PICKER": "Berry Picker",
 		"BERRY_PICKER_DESC": "Picks Berries from Basket"

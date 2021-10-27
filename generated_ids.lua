@@ -24,8 +24,11 @@ IdMap = {
 	{ "models/food.png", "", "149f7278-e8c4-4a26-8eda-50ec1012e99f" },
 	{ "BUILDING_PART_BERRY_BASKET", "BUILDING_PART", "8338cf5f-c7c6-4a63-9314-bcb7754ad88c" },
 	{ "BUILDING_PART_Berry_Basket", "BUILDING_PART", "e6d5bd1d-c30b-4a6d-b432-0cfbf21fc97a" },
+	{ "BUILDING_BASKET", "BUILDING", "43b46d9e-867f-4225-a69a-2db871798591" },
 	{ "models/mixedBerries-assets/mixedBerries.png", "", "08a8b94a-e101-412f-96c0-ce818f353c1f" },
 	{ "models/mixedBerries.jpg", "", "e4e82319-c5f0-4d7d-9d1d-3ffab16c46b8" },
 	{ "models/oMixedBerries.jpg", "", "69d5ebef-6a9e-41f8-996a-66d788400043" },
 	{ "BUILDING_GRANARY2", "BUILDING", "570cf899-54a2-4ed9-8b30-d0effe3b6a36" },
+	{ "BUILDING_Berry_Basket", "BUILDING", "3cf241fe-4ed3-4053-9f45-0d7fa94ffb92" },
+	{ "BUILDING_PART_BASKET", "BUILDING_PART", "91a0fa0d-fd29-4c5c-91b9-145c7109dd35" },
 }

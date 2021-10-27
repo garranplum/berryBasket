@@ -6,30 +6,30 @@
 		<meta id="54ec594b-8eae-4be8-a0b9-9718400d893c" name="food"/>
 	</meta>
 	<meta id="9c21912c-cb7d-4729-97a7-0fd056b1f49a" type="group" folder="true" name="Meshes">
-		<meta id="97fa6c59-b6d1-4759-a1a4-33ad7ec0c66b" name="Berry_Basket_Part_LOD_0123.5_wicker"/>
-		<meta id="31a15d21-408e-4946-a4da-dce7d4c86201" name="Berry_Basket_Part_LOD_0123.5_red wicker"/>
-		<meta id="71747c78-cfbd-4014-b0dc-abeba0392d98" name="Berry_Basket_Part_LOD_0123.5_food"/>
+		<meta id="53bbf952-714a-4190-bf4a-9d65f8d2cf6f" name="BERRY_BASKET_Part_LOD_0123.5_wicker"/>
+		<meta id="2481a997-f728-4764-b0bf-a1ba1d02d6ce" name="BERRY_BASKET_Part_LOD_0123.5_red wicker"/>
+		<meta id="c0141744-a411-4d11-a504-b7cad966f2b0" name="BERRY_BASKET_Part_LOD_0123.5_food"/>
 	</meta>
 	<meta id="6641249c-6ce2-49e9-a16c-b6691c2ce73f" name="Prefab">
-		<meta id="81740828-8363-4b8c-87ec-84c3c6b32074" name="Berry_Basket_Part">
-			<meta id="1f857940-77a2-4d39-afe5-004936894313" name="Attach_Bottom.004"/>
-			<meta id="ded87fc8-0796-4498-a96a-88e0cbfe8dd8" name="Path_Berry_Basket_Part_Worker_1"/>
-			<meta id="f65c3f15-82e6-4e6d-8b94-2e860ac08bcd" name="Path_Berry_Basket_Part_Worker_2"/>
-			<meta id="3c2547af-3ce0-4e08-8f34-fd7ec38addd1" name="Path_Berry_Basket_Part_Visitor"/>
-			<meta id="2eeb71a8-03b5-49fa-94f9-5c7d31fbdb6a" name="Path_Berry_Basket_Part_Transport"/>
-			<meta id="7920a586-3fe0-4da4-8506-a91527280f85" name="Berry_Basket_Part_0"/>
-			<meta id="031fa6f2-73b3-494d-b027-4317b3715357" name="Berry_Basket_Part_1"/>
-			<meta id="31756690-6bce-42d8-9e12-c80bd835f1b1" name="Berry_Basket_Part_2"/>
+		<meta id="f4f1e434-7dd9-4be6-a7ea-5bed25fde9c9" name="BERRY_BASKET_Part">
+			<meta id="f7756b74-2cee-4842-9e68-519cb42a8a17" name="Attach_Bottom.004"/>
+			<meta id="42c0093b-18c8-4a99-bfa8-9381c7cc928d" name="Path_BERRY_BASKET_Part_Worker_1"/>
+			<meta id="7fcc37b6-09cb-434d-ba8d-98f5556bcfcc" name="Path_BERRY_BASKET_Part_Transport"/>
+			<meta id="c45d3290-1fd9-4fbf-a8ba-c61ef7b0dc38" name="Path_BERRY_BASKET_Part_Visitor"/>
+			<meta id="b35c6726-8976-47cb-8b82-e31d3ebc844e" name="Path_BERRY_BASKET_Part_Worker_2"/>
+			<meta id="57c42bd9-5ff3-40cd-890e-fa0657abdf80" name="BERRY_BASKET_Part_0"/>
+			<meta id="48a95a35-a01d-4281-a4aa-4698062c401a" name="BERRY_BASKET_Part_1"/>
+			<meta id="df1f15cd-ebd3-469b-b0be-c695c8db294c" name="BERRY_BASKET_Part_2"/>
 		</meta>
 	</meta>
 	<meta id="64ff53d9-31f3-400c-8937-a66ff17aabd2" type="group" folder="true" name="LOD">
-		<meta id="b4dd8460-cb6b-48a0-9583-ab3f6e1fcf93" name="Berry_Basket_Part_0"/>
-		<meta id="2d3cde1b-03ba-46a0-9ebf-0751f2144c9f" name="Berry_Basket_Part_1"/>
-		<meta id="83fefc32-7393-4420-b48e-5536e895f40b" name="Berry_Basket_Part_2"/>
+		<meta id="f8f109bd-4abf-492b-a031-88c764677c69" name="BERRY_BASKET_Part_0"/>
+		<meta id="aad35eab-ee39-464c-ae1d-b405311823e4" name="BERRY_BASKET_Part_1"/>
+		<meta id="af8fd8a9-0a4b-41f9-aa00-364224bd16ba" name="BERRY_BASKET_Part_2"/>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="a550e515544000e1840ccd66d49efd5f"/>
+	<Md5Checksum value="9dead5322fae618937b0ca8ad68541e9"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -53,40 +53,40 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Path_Berry_Basket_Part_Worker_1"/>
+						<NodeName value="Path_BERRY_BASKET_Part_Worker_1"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Path_Berry_Basket_Part_Worker_2"/>
+						<NodeName value="Path_BERRY_BASKET_Part_Transport"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Path_Berry_Basket_Part_Visitor"/>
+						<NodeName value="Path_BERRY_BASKET_Part_Visitor"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Path_Berry_Basket_Part_Transport"/>
+						<NodeName value="Path_BERRY_BASKET_Part_Worker_2"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Berry_Basket_Part_0"/>
+						<NodeName value="BERRY_BASKET_Part_0"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Berry_Basket_Part_1"/>
+						<NodeName value="BERRY_BASKET_Part_1"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Berry_Basket_Part_2"/>
+						<NodeName value="BERRY_BASKET_Part_2"/>
 					</Item>
 				</ChildList>
-				<NodeName value="Berry_Basket_Part"/>
+				<NodeName value="BERRY_BASKET_Part"/>
 			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
