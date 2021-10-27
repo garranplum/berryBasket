@@ -12,8 +12,6 @@
 -- https://discord.gg/aeehVjMtzB
 --
 --
-
-
 -- BUG NOTICE
 --
 -- I fix all bugs! Please report them at The Orchard link above.
@@ -21,13 +19,10 @@
 -- Thank you. :-)
 --
 --
-
 -- BASIC CONFIGURATION
 -- Berry Basket is made with GPS 3, the low-code modding system for Foundation.
 -- GPS mods can be configured and remixed to make them your own.
 -- See the documentation for Remixer! and Barrel O'Fish, the reference GPS mods.
-
-
 -- MY CONFIG File
 local configFile = "config.lua"
 
@@ -35,13 +30,8 @@ local configFile = "config.lua"
 -- Main Entrypoint & Loader
 
 -- CREATE: GP Object 
-    local GP = {
-        mod = foundation.createMod()
-    }
+local GP = {mod = foundation.createMod()}
 
 -- EXECUTE FILE: Loader
 -- Sets up GPS.
 GP.mod:dofile("gp/loader.lua", GP, configFile)
-
--- local berryBasket = foundation.createMod();
--- berryBasket:dofile("berryBasket.lua")

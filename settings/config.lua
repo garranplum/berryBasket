@@ -51,7 +51,7 @@ local workplaces = {
 }
 
 -- MY CONFIG Buildings
-local buildings = {BERRY_BASKET = "Berry_Basket", GRANARY2 = "GRANARY"}
+local buildings = {BERRY_BASKET = "Berry_Basket"}
 
 -- MY CONFIG Monuments
 -- local monuments = {[modName] = {Categories = {FRUIT = {}}}}
