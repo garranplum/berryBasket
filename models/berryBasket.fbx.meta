@@ -14,12 +14,12 @@
 		<meta id="f4f1e434-7dd9-4be6-a7ea-5bed25fde9c9" name="BERRY_BASKET_Part">
 			<meta id="f7756b74-2cee-4842-9e68-519cb42a8a17" name="Attach_Bottom.004"/>
 			<meta id="42c0093b-18c8-4a99-bfa8-9381c7cc928d" name="Path_BERRY_BASKET_Part_Worker_1"/>
-			<meta id="7fcc37b6-09cb-434d-ba8d-98f5556bcfcc" name="Path_BERRY_BASKET_Part_Transport"/>
 			<meta id="c45d3290-1fd9-4fbf-a8ba-c61ef7b0dc38" name="Path_BERRY_BASKET_Part_Visitor"/>
 			<meta id="b35c6726-8976-47cb-8b82-e31d3ebc844e" name="Path_BERRY_BASKET_Part_Worker_2"/>
 			<meta id="57c42bd9-5ff3-40cd-890e-fa0657abdf80" name="BERRY_BASKET_Part_0"/>
 			<meta id="48a95a35-a01d-4281-a4aa-4698062c401a" name="BERRY_BASKET_Part_1"/>
 			<meta id="df1f15cd-ebd3-469b-b0be-c695c8db294c" name="BERRY_BASKET_Part_2"/>
+			<meta id="72276ceb-a804-464a-a264-067d96ddd445" name="Path_BERRY_BASKET_Part_Transport"/>
 		</meta>
 	</meta>
 	<meta id="64ff53d9-31f3-400c-8937-a66ff17aabd2" type="group" folder="true" name="LOD">
@@ -29,7 +29,7 @@
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="9dead5322fae618937b0ca8ad68541e9"/>
+	<Md5Checksum value="5d6eeabffde5ccc78ce1cfb995f81456"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -58,11 +58,6 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Path_BERRY_BASKET_Part_Transport"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
 						<NodeName value="Path_BERRY_BASKET_Part_Visitor"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
@@ -84,6 +79,11 @@
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
 						<NodeName value="BERRY_BASKET_Part_2"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Path_BERRY_BASKET_Part_Transport"/>
 					</Item>
 				</ChildList>
 				<NodeName value="BERRY_BASKET_Part"/>
